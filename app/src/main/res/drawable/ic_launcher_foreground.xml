@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Camera Body / Parcel Outline -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M32,32 h44 c3.3,0 6,2.7 6,6 v32 c0,3.3 -2.7,6 -6,6 h-44 c-3.3,0 -6,-2.7 -6,-6 v-32 c0,-3.3 2.7,-6 6,-6 z" />
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M32,32 h44 c3.3,0 6,2.7 6,6 v32 c0,3.3 -2.7,6 -6,6 h-44 c-3.3,0 -6,-2.7 -6,-6 v-32 c0,-3.3 2.7,-6 6,-6 z" />
+    
+    <!-- Barcode bars inside box -->
+    <path
+        android:strokeColor="#F8FAFC"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M37,42 v24 M43,42 v24 M47,42 v24 M53,42 v24 M59,42 v24 M65,42 v24 M71,42 v24" />
+    
+    <!-- Red Laser scan line -->
+    <path
+        android:strokeColor="#EF4444"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:pathData="M26,54 h56" />
+
+    <!-- Record Indicator Dot -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M70,36 m-3,0 a3,3 0 1,0 6,0 a3,3 0 1,0 -6,0" />
+</vector>

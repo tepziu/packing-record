@@ -1,0 +1,6 @@
+{
+  "name": "Packing Recorder",
+  "description": "CameraX packing video recorder with ML Kit barcode auto-trigger, burned-in watermark, SHA-256 hashing, Room persistence, and Google Drive upload queue.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

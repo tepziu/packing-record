@@ -1,0 +1,20 @@
+package com.example.data.local
+
+import androidx.room.TypeConverter
+import com.example.domain.model.UploadStatus
+
+class Converters {
+    @TypeConverter
+    fun fromUploadStatus(status: UploadStatus): String {
+        return status.name
+    }
+
+    @TypeConverter
+    fun toUploadStatus(value: String): UploadStatus {
+        return try {
+            UploadStatus.valueOf(value)
+        } catch (e: Exception) {
+            UploadStatus.PENDING
+        }
+    }
+}
